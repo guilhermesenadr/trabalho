@@ -31,6 +31,7 @@ main{
     justify-content: center;
 }
 section{
+    margin-top: 20px;
     align-items: center;
     justify-content: center;
     width: 80%;
