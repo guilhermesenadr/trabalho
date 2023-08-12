@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 400px) and (max-width: 992px) {
+	body{
+		background-image: linear-gradient(to top, #49a09d, #5f2c82);
+	}
+header{
+    flex-direction: column;
+    height: 400px;    
+}
+div.logo{
+    width: 250px;
+    height: 250px;
+}
+div.logo{
+    margin-top: 30px;
+}
+i#hamburguer{
+    margin-top: 10px;
+    display: block;
+}
+nav{
+    display: none;
+}
+nav ul li{
+    display: block;
+
+}
+main{
+    flex-direction: column;
+    justify-content: center;
+}
+section{
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+article{
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: auto;
+}
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    nav{
+        display: flex;
+    }
+}
